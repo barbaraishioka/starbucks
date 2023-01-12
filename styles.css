@@ -1,3 +1,5 @@
+/* GLOBAL STYLES */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
 * {
@@ -18,6 +20,8 @@
   max-width: 1366px;
   max-height: 625px;
 }
+
+/* HEADER STYLES */
 
 header {
   width: 100%;
@@ -62,6 +66,8 @@ header nav a:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+/* MAIN STYLES */
 
 main {
   width: 100%;
@@ -122,6 +128,8 @@ main .imgBox img {
   max-width: 340px;
 }
 
+/* CIRCLE STYLES */
+
 .circle {
   width: 100%;
   height: 100%;
@@ -132,6 +140,8 @@ main .imgBox img {
   clip-path: circle(600px at right 750px);
   z-index: -1;
 }
+
+/* THUMBS STYLES */
 
 .thumbs {
   position: absolute;
@@ -146,9 +156,13 @@ main .imgBox img {
   cursor: pointer;
   transition: 0.4s;
 }
+
 .thumbs img:hover {
   transform: translateY(-15px);
 }
+
+/* SOCIAL STYLES */
+
 .social-icons {
   position: absolute;
   top: 50%;
@@ -167,4 +181,132 @@ main .imgBox img {
 
 .social-icons a:hover {
   transform: scale(1.3);
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 1024px) {
+  header img {
+    max-width: 3.4rem;
+  }
+
+  header nav a {
+    font-size: 0.8rem;
+  }
+
+  main .textBox {
+    max-width: 350px;
+  }
+
+  main .textBox h2 {
+    font-size: 2.2em;
+    font-weight: 600;
+  }
+
+  main .textBox p {
+    font-size: 0.8rem;
+  }
+
+  main .textBox a {
+    font-size: 0.8rem;
+  }
+
+  main .imgBox {
+    max-width: 300px;
+  }
+
+  main .imgBox img {
+    max-width: 200px;
+  }
+
+  .social-icons a img {
+    width: 1.4rem;
+  }
+
+  .thumbs {
+    top: 80%;
+  }
+
+  .thumbs img {
+    max-width: 2.6rem;
+  }
+
+  .circle {
+    clip-path: circle(380px at right 550px);
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    width: 100%;
+    height: 5.6rem;
+    padding-inline: 2rem;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  main .textBox {
+    margin-top: 1rem;
+    max-width: 300px;
+  }
+
+  main .textBox h2 {
+    font-size: 2.8em;
+  }
+
+  main .textBox p {
+    font-size: 1rem;
+  }
+
+  main .textBox a {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  main .imgBox {
+    max-width: 300px;
+  }
+
+  main .imgBox img {
+    max-width: 180px;
+  }
+
+  .social-icons a img {
+    max-width: 1rem;
+  }
+
+  .thumbs {
+    position: static;
+    transform: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1rem;
+  }
+
+  .thumbs img {
+    max-width: 2.6rem;
+  }
+
+  .circle {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    bottom: 0;
+    clip-path: circle(600px at right 750px);
+    z-index: -1;
+  }
 }
