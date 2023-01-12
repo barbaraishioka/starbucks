@@ -1,5 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary-color: #017143;
+  --secondary-color: #333;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1366px;
+  max-height: 625px;
+}
+
+header {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 4rem;
+  margin-inline: auto;
+}
+
+header img {
+  max-width: 80px;
+}
+
+header nav {
+  display: flex;
+  gap: 50px;
+}
+
+header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  position: relative;
+}
+
+header nav a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #007b0c;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+header nav a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 4rem;
+}
+
+main .textBox {
+  max-width: 640px;
+}
+
+main .textBox h2 {
+  text-transform: uppercase;
+  font-size: 3.8em;
+  line-height: 1.2em;
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+main .textBox h2 strong {
+  font-weight: 900;
+  color: var(--primary-color);
+}
+
+main .textBox p {
+  margin-top: 1rem;
+  color: var(--secondary-color);
+}
+
+main .textBox a {
+  margin-top: 2rem;
+  display: inline-block;
+  padding: 14px 20px;
+  background-color: transparent;
+  border: 1px solid var(--primary-color);
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 2rem;
+  color: var(--primary-color);
+  transition: 0.4s;
+}
+
+main .textBox a:hover {
+  background-color: var(--primary-color);
+  border-color: transparent;
+  color: #fff;
+}
+
+main .imgBox {
+  max-width: 400px;
+}
+
+main .imgBox img {
+  max-width: 340px;
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip-path: circle(600px at right 750px);
+  z-index: -1;
+}
+
+.thumbs {
+  position: absolute;
+  left: 50%;
+  top: 84%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.thumbs img {
+  max-width: 60px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.thumbs img:hover {
+  transform: translateY(-15px);
+}
+.social-icons {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.social-icons a {
+  transition: 0.4s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.3);
 }
