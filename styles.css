@@ -309,20 +309,10 @@ main .imgBox img {
   }
 }
 
-@media only screen and (max-width: 570px) and (min-height: 560px) {
-  .circle {
+@media only screen and (max-width: 570px) and (min-height: 531px) {
+  .container {
     position: absolute;
-    top: 48%;
-    clip-path: circle(300px at bottom);
-    z-index: -1;
-  }
-}
-
-@media only screen and (max-width: 570px) and (min-height: 800px) {
-  .circle {
-    position: absolute;
-    top: 30%;
-    clip-path: circle(300px at bottom);
-    z-index: -1;
+    max-height: 531px;
+    height: 531px;
   }
 }
