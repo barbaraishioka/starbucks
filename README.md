@@ -13,7 +13,7 @@
 
 </br>
 
-<div style="margin-inline:10px">
+<div style="margin-inline:10px; text-align: justify;">
 
 ### Após assistir as vídeos aulas do evento Missão programação do zero na plataforma DevClub, administrada pelo instrutor [Rodolfo Mori](https://www.instagram.com/rodolfomorii/) , procurei no [Figma](https://www.figma.com/community/file/1069619517324835361) um modelo parecido da página Starbucks Coffe e fiz meu projeto! Responsivo com alguns efeitos hovers e efeito de clique!
 
