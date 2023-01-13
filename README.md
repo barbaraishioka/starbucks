@@ -6,8 +6,8 @@
 
 <div style="display:flex; gap:10px; justify-content:center; align-items:center">
 
-<img src="./.github/mobile-preview.png" height="500">
-<img src="./.github/desktop-preview.png" width="500">
+<img src="./.github/mobile-preview.png" height="600">
+<img src="./.github/desktop-preview.png" width="600">
 
 </div>
 
@@ -31,5 +31,6 @@
 </div>
 
 <div align="right">
-<a href="#top">⬆️ Voltar ao topo</a>
+<a href="#top" style="margin-right:10px">⬆️ Voltar ao topo</a>
 </div>
+</br>
