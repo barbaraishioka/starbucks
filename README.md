@@ -1,36 +1,58 @@
-<h1 id="top"> Starbucks Coffee </h1>
+<h1 align="center" id="top"> Starbucks Coffee </h1>
 
-> Starbucks Responsive Landing Page Website Design usando Html CSS &amp; Javascript
+<div style="text-align: justify;">
 
-</br>
-
-<div style="display:flex; gap:10px; justify-content:center; align-items:center">
-
-<img src="./.github/mobile-preview.png" height="600">
-<img src="./.github/desktop-preview.png" width="600">
+Após assistir as vídeos aulas do evento Missão programação do zero na plataforma DevClub, administrada pelo instrutor [Rodolfo Mori](https://www.instagram.com/rodolfomorii/) , procurei no [Figma](https://www.figma.com/community/file/1069619517324835361) um modelo parecido da página Starbucks Coffe e fiz meu projeto! Responsivo com alguns efeitos hovers e efeito de clique!
 
 </div>
 
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
+
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000" />
+</p>
+
+<br>
+
+<p align="center">
+  <img src="./.github/desktop-preview.png" width="100%">
+</p>
+
 </br>
 
-<div style="margin-inline:10px; text-align: justify;">
+## 🚀 Tecnologias
 
-### Após assistir as vídeos aulas do evento Missão programação do zero na plataforma DevClub, administrada pelo instrutor [Rodolfo Mori](https://www.instagram.com/rodolfomorii/) , procurei no [Figma](https://www.figma.com/community/file/1069619517324835361) um modelo parecido da página Starbucks Coffe e fiz meu projeto! Responsivo com alguns efeitos hovers e efeito de clique!
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-</br>
+- HTML e CSS
+- JavaScript
+- Git e Github
+- Figma
 
-## 💻 Tecnologias utilizadas
 
-- Html
-- CSS
-- Javascript
-- Git
-- Github
-- VS Code
+## 💻 Projeto
 
-</div>
+Starbucks Landing Page Website com Design Responsivo utilizando HTML, CSS & Javascript.
 
-<div align="right">
-<a href="#top" style="margin-right:10px">⬆️ Voltar ao topo</a>
-</div>
-</br>
+- [Visite o projeto online]()
+
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/community/file/1069619517324835361). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT.
+
+#
+
+Feito com ♥ by [Bárbara Ishioka](https://www.linkedin.com/in/barbaraishioka/).
+
+<p align="right"><a href="#top">⬆️ Voltar ao topo</a></p>
