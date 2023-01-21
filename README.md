@@ -39,7 +39,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Starbucks Landing Page Website com Design Responsivo utilizando HTML, CSS & Javascript.
 
-- [Visite o projeto online]()
+- [Visite o projeto online](https://barbaraishioka.github.io/starbucks/)
 
 
 ## 🔖 Layout
