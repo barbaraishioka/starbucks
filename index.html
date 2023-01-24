@@ -36,14 +36,23 @@
           <a href="#">Learn More</a>
         </section>
         <section class="imgBox">
-          <img src="./img/img1.png" alt="Starbucks Coffee" />
+          <img class="starbucks" src="./img/img1.png" alt="Starbucks Coffee" />
         </section>
       </main>
       <section class="thumbs">
         <div>
-          <img src="./img/thumb1.png" alt="Starbucks Thumb" />
-          <img src="./img/thumb2.png" alt="Starbucks Thumb" />
-          <img src="./img/thumb3.png" alt="Starbucks Thumb" />
+          <img
+            src="./img/thumb1.png"
+            alt="Starbucks Thumb"
+            onclick="changeImage('./img/img1.png'); changeBgColor('#017143')" />
+          <img
+            src="./img/thumb2.png"
+            alt="Starbucks Thumb"
+            onclick="changeImage('./img/img2.png'); changeBgColor('#eb7495')" />
+          <img
+            src="./img/thumb3.png"
+            alt="Starbucks Thumb"
+            onclick="changeImage('./img/img3.png'); changeBgColor('#d752b1')" />
         </div>
       </section>
       <section class="social-icons">
@@ -59,4 +68,17 @@
       </section>
     </div>
   </body>
+
+  <script>
+    let image = document.querySelector(".starbucks");
+    let bg = document.querySelector(".circle");
+
+    function changeImage(src) {
+      image.src = src;
+    }
+
+    function changeBgColor(color) {
+      bg.style.background = color;
+    }
+  </script>
 </html>
